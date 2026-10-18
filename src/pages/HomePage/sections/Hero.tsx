@@ -10,18 +10,18 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroBillboardCarousel
-          tag="Mobilny Detailing"
-          title="Mobilny Detailing Premium – Giżycko i okolice do 50 km"
-          description="Oszczędzaj czas. Przynosimy standard ekskluzywnego studia prosto pod Twoje drzwi. Działamy bezkompromisowo, dbając o każdy detal Twojego samochodu."
-          primaryButton={{
+        tag="Mobilny Detailing"
+        title="Mobilny Detailing Premium – Olsztyn i okolice do 50 km"
+        description="Oszczędzaj czas. Przynosimy standard ekskluzywnego studia prosto pod Twoje drzwi. Działamy bezkompromisowo, dbając o każdy detal Twojego samochodu."
+        primaryButton={{
             text: "Zarezerwuj termin",
             href: "#kontakt",
           }}
-          secondaryButton={{
+        secondaryButton={{
             text: "Nasza oferta",
             href: "#uslugi",
           }}
-          items={[
+        items={[
             {
               imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",
             },
@@ -41,8 +41,8 @@ export default function HeroSection(): React.JSX.Element {
               imageSrc: "http://img.b2bpic.net/free-photo/car-detailing-concept-man-face-mask-with-orbital-polisher-repair-shop-polishing-orange-suv-car_627829-12598.jpg",
             },
           ]}
-          textAnimation="fade-blur"
-        />
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
